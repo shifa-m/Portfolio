@@ -30,7 +30,7 @@ const RightCard = () => {
 
                                     </div>
                                   <div className='w-1/2 '>
-                                                                                                <img src={Profile} alt="Sheefa Mehreen" className=' h-190 w-190 rounded-full' />
+                                                                                                <img src={Profile} alt="Sheefa Mehreen" className=' h-130 w-130 rounded-full ml-35 mt-35' />
                                                                                                 
                                                                                                 </div>
                                     </div>
