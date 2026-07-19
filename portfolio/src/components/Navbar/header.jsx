@@ -12,7 +12,7 @@ const Header = () => {
                                     <div className='h-20  flex  text-2xl text-white p-2 ml-3'>
                                                 <h1 className='bg-[#6D326D] rounded-full h-10 w-10 p-1 text-white '>SM</h1>
                                                 <h1 className='text-4xl mr-20 ml-10'>Sheefa Mehreen</h1>
-                                                <div className='flex items-center gap-20 ml-60 text-[#6D326D] font-bold'>
+                                                <div className='flex items-center gap-20 ml-60 text-white font-bold'>
                                                             <h2>Home</h2>
                                                             <h2>About</h2>
                                                             <h2>Skills</h2>
