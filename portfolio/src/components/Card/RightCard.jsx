@@ -1,10 +1,21 @@
 import React from 'react'
 import { ArrowRight,Download, User ,Image,CircleFadingPlus,FolderGit2 } from 'lucide-react';
-import Profile from "../../assets/images/profile.jpg";
+import Profile from "../../assets/images/profile.png";
+import Resume from "../../assets/resume/resumeMERN.pdf"
 
 
 
 const RightCard = () => {
+
+  const handleResumeDownload = () => {
+  const link = document.createElement("a");
+  link.href = Resume;
+  link.setAttribute("download", "Sheefa_Mehreen_Resume.pdf");
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
   return (
     <div className='flex w-full '>
                                                 <div className=' w-1/2  m-5 ml-10 mt-30 '>
@@ -15,7 +26,7 @@ const RightCard = () => {
                                                 <h1 className='text-2xl mt-8 text-white'>I build scalable ,responsive and user-friendly web application that solve real-world problems.</h1>
                                                 <div className='flex gap-20'>
                                                             <button className='bg-[#6D326D] text-white font-bold p-3 m-3 rounded-2xl mt-15 ml-18  flex'>View My Work  <h1><ArrowRight /></h1></button>
-                                                            <button className='bg-[#6D326D] text-white font-bold p-3 m-3 mt-15 rounded-2xl flex ml-6 gap-2 w-50'>Download Resume <Download /> </button>
+                                                            <button onClick={handleResumeDownload} className='bg-[#6D326D] text-white font-bold p-3 m-3 mt-15 rounded-2xl flex ml-6 gap-2 w-50'>Download Resume <Download /> </button>
                                                 </div>
 
                                                 <div className='flex mt-10 gap-20'>
@@ -30,7 +41,7 @@ const RightCard = () => {
 
                                     </div>
                                   <div className='w-1/2 '>
-                                                                                                <img src={Profile} alt="Sheefa Mehreen" className=' h-130 w-130 rounded-full ml-35 mt-35' />
+                                                                                                <img src={Profile} alt="Sheefa Mehreen" className='w-[450px] object-contain drop-shadow-[0_0_50px_rgba(109,50,109,0.45)] hover:scale-105 transition-all duration-500 ml-40  mt-15' />
                                                                                                 
                                                                                                 </div>
                                     </div>

@@ -1,11 +1,18 @@
 import React from 'react'
 
 const Projects = () => {
+
+  const handleGithub=()=>{
+    window.open(
+      "https://github.com/shifa-m",
+      "_blank"
+    )
+  }
   return (
     <div>
              <div className='flex justify-between'>
         <h1 className='m-15 text-xl text-white'>FEATURED PROJECTS</h1>
-        <button className=' bg-[#6D326D] text-white font-bold h-15 w-40 rounded-2xl  m-15'>View All Projects</button>
+        <button onClick={handleGithub} className=' bg-[#6D326D] text-white font-bold h-15 w-40 rounded-2xl  m-15'>View All Projects</button>
 
       </div>
       <div className='flex'>
