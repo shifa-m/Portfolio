@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div>
+    <div className='bg-black '>
       <div>
         <button className='ml-15 mb-10 text-2xl font-bold text-white'>Skills & Technologies *</button>
         <div className='flex justify-around  text-white font-bold'>

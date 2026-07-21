@@ -15,8 +15,28 @@ const RightCard = () => {
   link.click();
   document.body.removeChild(link);
 };
+const handleGithub=()=>{
+                        window.open(
+                                    "https://github.com/shifa-m",
+                                    "_blank"
+                        )
+            };
+const handleInsta=()=>{
+  window.open(
+    "https://www.instagram.com/_hushed.s/",
+    "_blank"
+  )
+};
+
+const handleEmail=()=>{
+  window.open(
+    "https://mail.google.com/mail/?view=cm&fs=1&to=shifamahreen786@gmail.com",
+    "_blank"
+  )
+}
 
   return (
+    
     <div className='flex w-full '>
                                                 <div className=' w-1/2  m-5 ml-10 mt-30 '>
                                                 <span className=' bg-[#6D326D] text-white font-bold p-4 pl-9 pr-9  rounded-2xl '>FULL-STACK DEVELOPER</span>
@@ -30,11 +50,11 @@ const RightCard = () => {
                                                 </div>
 
                                                 <div className='flex mt-10 gap-20'>
-                                                            <FolderGit2 className='' size={30} strokeWidth={2.50} />
-                                                            <CircleFadingPlus size={30} strokeWidth={2.50} />
+                                                            <FolderGit2 onClick={handleGithub} className='' size={30} strokeWidth={2.50} />
+                                                            <CircleFadingPlus onClick={handleInsta} size={30} strokeWidth={2.50} />
                                                             <Image size={30} strokeWidth={2.50} />
 
-                                                            <User size={30} strokeWidth={2.50} />
+                                                            <User onClick={handleEmail} size={30} strokeWidth={2.50} />
                                                 </div>
                                                 
 
