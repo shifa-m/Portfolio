@@ -41,7 +41,7 @@ const handleEmail=()=>{
                                                 <div className=' w-1/2  m-5 ml-10 mt-30 '>
                                                 <span className=' bg-[#6D326D] text-white font-bold p-4 pl-9 pr-9  rounded-2xl '>FULL-STACK DEVELOPER</span>
                                                 <h1 className='text-5xl mt-12 text-white'>Hi , I'm</h1>
-                                                <h1 className='text-7xl mt-8 text-[#6D326D]'>Sheefa Mehreen</h1>
+                                                <h1 className='text-5xl mt-8 text-[#6D326D] italic font-bold'>Sheefa Mehreen</h1>
                                                 <h1 className='text-5xl mt-8 text-white'>Full Stack MERN Developer</h1>
                                                 <h1 className='text-2xl mt-8 text-white'>I build scalable ,responsive and user-friendly web application that solve real-world problems.</h1>
                                                 <div className='flex gap-20'>

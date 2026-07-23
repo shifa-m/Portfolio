@@ -2,21 +2,36 @@ import React from 'react'
 
 const About = () => {
             return (
-                        <div className='mt-15'>
-                                    <div className='w-1/2  '>
-                                                <button className='bg-[#6D326D] h-10 w-30 m-10 rounded-2xl text-white font-bold '>About me</button>
+                        <div className='mt-15 w-full italic'>
+                                    <div className='text-white   p-20 italic'>
+                                                <h1 className='text-6xl text-[#6D326D] font-bold '>Who Am I ?  </h1>
+                                    <h1 className='text-5xl pt-10 font-bold italic'>I'm Sheefa Mehreen ,</h1>
+                                    <h1 className='text-xl pt-10'>A Full-Stack Developer who enjoys turning ideas into responsive and user-friendly web applications. </h1>
+                                    <h1 className='text-xl'>I believe in writing clean code, continuously learning, and building solutions that make an impact.</h1>
                                     </div>
-                                    <div className='ml-10 text-2xl text-white'>
-                                                <h1>I'm a Computer Science & Engg Graduate</h1>
-                                                <h1>I'm passionate about turning ideas into real-world applications <br />using MERN Stack.I love clean code , modern UI/UX , and <br />building projects that make an impact.</h1>
-
+                                    
+                                   
+                                    <div className='flex gap-4 m-10 mt-15  justify-around'>
+                                                <div className='h-60 w-80  shadow-[0_0_30px_#6D326D] pt-15  rounded-2xl text-white p-5'> 
+                                                    <h1 className='text-3xl text-[#6D326D] font-bold'>1+</h1> 
+                                                           <h1 className='text-xl font-bold'>Year Learning</h1>
+                                                           <h1>Learning ,Building & collabrating</h1>
+                                                           </div>
+                                                <div className='h-60 w-80  shadow-[0_0_30px_#6D326D] p-6 pt-15 rounded-2xl text-white '>
+                                                            <h1 className='text-3xl text-[#6D326D] font-bold'>10+ </h1>
+                                                            <h1 className='text-xl font-bold'>Websites</h1> 
+                                                            <h1>Modern  & fast responsive designs</h1></div>
+                                                <div className='h-55 w-75 shadow-[0_0_30px_#6D326D]  rounded-2xl text-white p-6 pt-10 '>
+                                                            <h1 className='text-3xl text-[#6D326D] font-bold'>3+</h1>
+                                                            <h1 className='text-xl font-bold'>Internships & Volunteering</h1>
+                                                            <h1>Full-Stack Developer ,Software Developer & IOT</h1>
+                                                            </div>
+                                                <div className='h-60 w-80  shadow-[0_0_30px_#6D326D]  rounded-2xl text-white p-6 pt-17'>
+                                                            <h1 className='text-3xl text-[#6D326D] font-bold'>100% </h1>
+                                                            <h1 className='text-xl font-bold'> Dedication</h1> 
+                                                            <h1>Consistent Collabration  </h1> </div>
                                     </div>
-                                    <div className='flex gap-4 m-10 mt-15 font-bold '>
-                                                <h1 className='h-20 w-40  bg-[#6D326D] flex justify-center items-center rounded-2xl text-white '>1+ Year Learning</h1>
-                                                <h1 className='h-20 w-40  bg-[#6D326D] flex justify-center items-center rounded-2xl text-white '>5+ Projects</h1>
-                                                <h1 className='h-20 w-40  bg-[#6D326D] flex justify-center items-center rounded-2xl text-white '>3 Internships</h1>
-                                                <h1 className='h-20 w-40  bg-[#6D326D] flex justify-center items-center rounded-2xl text-white '>100% dedication</h1>
-                                    </div>
+                                    
                         </div>
             )
 }
