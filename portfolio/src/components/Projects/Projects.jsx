@@ -10,7 +10,7 @@ const Projects = () => {
   }
   return (
     <div>
-             <div className='flex justify-between  '>
+             <div className='flex justify-between font-serif '>
         <h1 className='m-15 text-xl text-white font-bold'>FEATURED PROJECTS</h1>
         <button onClick={handleGithub} className=' bg-[#6D326D] text-white font-bold h-15 w-40 rounded-2xl  m-15'>View All Projects</button>
       </div>
