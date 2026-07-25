@@ -32,7 +32,7 @@ const Header = () => {
                                                 <div className='hidden lg:flex items-center gap-12 ml-40 text-white font-bold md:gap-16 md:ml-50 lg:gap-20 lg:ml-60 font-serif'>
                                                             <Link to="home" smooth={true} duration={500} className="cursor-pointer">Home</Link>
                                                             <Link to="about" smooth={true} duration={500} className="cursor-pointer">About</Link>
-                                                            <Link to="skills" smooth={true} duration={500} className="cursor-pointer">Skills</Link>
+                                                            <Link to="process" smooth={true} duration={500} className="cursor-pointer">Process</Link>
                                                             <Link to="projects" smooth={true} duration={500} className="cursor-pointer">Projects</Link>
                                                             <Link to="experience" smooth={true} duration={500} className="cursor-pointer">Experience</Link>
                                                             <Link to="contact" smooth={true} duration={500} className="cursor-pointer">Contact</Link>
@@ -49,7 +49,7 @@ const Header = () => {
                                                                                     <div className="absolute top-20 left-0 w-full bg-black flex flex-col px-6 py-5 gap-6 z-50">
                                                                                                 <Link to="home" smooth={true} duration={500} onClick={() => setOpen(flase)} className="cursor-pointer">Home</Link>
                                                                                                 <Link to="about" smooth={true} duration={500} onClick={() => setOpen(false)} className="cursor-pointer">About</Link>
-                                                                                                <Link to="skills" smooth={true} duration={500} onClick={() => setOpen(false)} className="cursor-pointer">Skills</Link>
+                                                                                                <Link to="process" smooth={true} duration={500} onClick={() => setOpen(false)} className="cursor-pointer">Process</Link>
                                                                                                 <Link to="projects" smooth={true} duration={500} onClick={() => setOpen(false)} className="cursor-pointer">Projects</Link>
                                                                                                 <Link to="experience" smooth={true} duration={500} onClick={() => setOpen(false)} className="cursor-pointer">Experience</Link>
                                                                                                 <Link to="contact" smooth={true} duration={500} onClick={() => setOpen(false)} className="cursor-pointer">Contact</Link>
