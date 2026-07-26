@@ -36,7 +36,7 @@ const Header = () => {
                                                             <Link to="projects" smooth={true} duration={500} className="cursor-pointer transition-transform duration-300 hover:scale-120">Projects</Link>
                                                             <Link to="experience" smooth={true} duration={500} className="cursor-pointer transition-transform duration-300 hover:scale-120">Experience</Link>
                                                             <Link to="contact" smooth={true} duration={500} className="cursor-pointer transition-transform duration-300 hover:scale-120">Contact</Link>
-                                                            <button onClick={handleTalk} className='flex rounded-full border border-[#6D326D] bg-[#6D326D]/20 px-10 py-2  text-sm font-semibold tracking-wide text-[#d98dd9] cursor-pointer transition-transform duration-300 hover:scale-105'>Let's Talk<ChevronRight className='ml-2' size={30} /> </button>
+                                                            <button onClick={handleTalk} className='flex items-center rounded-full border border-[#6D326D] bg-[#6D326D]/20 px-10 py-2  text-sm font-semibold tracking-wide text-[#d98dd9] cursor-pointer transition-transform duration-300 hover:scale-105 '>Let's Talk<ChevronRight className='ml-2' size={30} /> </button>
                                                 </div>
                                                 <div className='lg:hidden ml-auto cursor-pointer '
                                                             onClick={() => setOpen(!open)}
