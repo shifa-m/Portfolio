@@ -2,40 +2,23 @@ import React from 'react'
 import Email from '../contact/Email.jsx'
 import { ChevronRight } from 'lucide-react';
 
+
 const Page4 = () => {
 
-  const handleMessage = () => {
+  const handleMessage=()=>{
     window.open(
       "https://mail.google.com/mail/?view=cm&fs=1&to=shifamahreen786@gmail.com",
       "_blank"
     )
   }
 
-  const handleLinkedin=()=>{
-    window.open(
-      "",
-      "_blank"
-    )
-  }
-
-  const handleGithub=()=>{
-    window.open(
-      "",
-      "_blank"
-    )
-  }
 
   return (
     <div className="w-full bg-black text-white flex justify-center items-center px-6 py-16">
-
       <div className="w-full max-w-7xl flex flex-col lg:flex-row rounded-4xl bg-black shadow-[0_0_30px_#6D326D] overflow-hidden">
-
-       
         <div className="w-full lg:w-1/2">
           <Email />
         </div>
-
-        
         <div className="w-full lg:w-1/2 px-8 md:px-12 lg:px-16 py-10">
 
           <input

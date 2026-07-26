@@ -3,9 +3,9 @@ import Skills from '../Skills/Skills'
 
 const About = () => {
   return (
-    <div className="w-full mt-10 px-6 md:px-10 lg:px-20 font-serif">
+    <div className="min-h-screen w-full mt-10 px-6 md:px-10 lg:px-20 font-serif">
 
-      <div className="flex flex-col lg:flex-row items-center gap-10">
+      <div className="flex flex-col lg:flex-row items-center gap-10 lg:mt-25 md:mt-17">
 
        
         <div className="w-full lg:w-1/2 text-white">
@@ -36,7 +36,7 @@ const About = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
 
-        <div className="shadow-[0_0_30px_#6D326D] rounded-2xl text-white p-6 min-h-[220px]">
+        <div className="shadow-[0_0_30px_#6D326D] rounded-2xl text-white p-6 min-h-[220px] transform-transition duration-300 cursor-pointer hover:scale-95">
           <h1 className="text-3xl text-[#6D326D] font-bold">1+</h1>
           <h2 className="text-xl font-bold mt-2">Year Learning</h2>
           <p className="mt-2">
@@ -44,7 +44,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="shadow-[0_0_30px_#6D326D] rounded-2xl text-white p-6 min-h-[220px]">
+        <div className="shadow-[0_0_30px_#6D326D] rounded-2xl text-white p-6 min-h-[220px] transform-transition duration-300 cursor-pointer hover:scale-95">
           <h1 className="text-3xl text-[#6D326D] font-bold">10+</h1>
           <h2 className="text-xl font-bold mt-2">Websites</h2>
           <p className="mt-2">
@@ -52,7 +52,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="shadow-[0_0_30px_#6D326D] rounded-2xl text-white p-6 min-h-[220px]">
+        <div className="shadow-[0_0_30px_#6D326D] rounded-2xl text-white p-6 min-h-[220px] transform-transition duration-300 cursor-pointer hover:scale-95">
           <h1 className="text-3xl text-[#6D326D] font-bold">3+</h1>
           <h2 className="text-xl font-bold mt-2">
             Internships & Volunteering
@@ -62,7 +62,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="shadow-[0_0_30px_#6D326D] rounded-2xl text-white p-6 min-h-[220px]">
+        <div className="shadow-[0_0_30px_#6D326D] rounded-2xl text-white p-6 min-h-[220px] transform-transition duration-300 cursor-pointer hover:scale-95">
           <h1 className="text-3xl text-[#6D326D] font-bold">100%</h1>
           <h2 className="text-xl font-bold mt-2">Dedication</h2>
           <p className="mt-2">

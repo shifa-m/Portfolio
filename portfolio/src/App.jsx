@@ -11,7 +11,7 @@ import Experience from './components/Experience/Experience.jsx'
 
 const App = () => {
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden cursor-pointer'>
    
       <div>
       <Element name="home"><Header/></Element>

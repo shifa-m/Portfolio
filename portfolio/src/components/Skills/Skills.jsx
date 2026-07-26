@@ -1,4 +1,5 @@
 import React from 'react'
+import { easeInOut, motion } from "framer-motion"
 
 const Skills = () => {
 
@@ -29,19 +30,43 @@ const Skills = () => {
         <div className="flex flex-wrap gap-4 justify-center">
 
           {skills.map((skill, index) => (
-            <div
+            <motion.div
+              initial={{
+                opacity: 0
+              }}
+              animate={{
+                opacity: 1.1,
+                scale: [1, 1.03, 1],
+                y: [0, -2, 0]
+              }}
+              transition={{
+                duration: 2.8,
+                repeat: Infinity,
+                repeatType: "mirror",
+                ease: "easeInOut",
+                delay: index * 0.15
+              }}
+              whileHover={{
+                scale: 1.08,
+                y: -8,
+                boxShadow: "0 0 35px rgba(109,50,109,.8)"
+              }}
               key={index}
-              className="bg-[#6D326D] text-white
+              className=" text-white 
+             bg-[#6D326D]/30
+backdrop-blur-md
+border
+border-purple-400/30
               px-5 py-3
               rounded-full
               font-semibold
               text-sm md:text-base
-              hover:scale-105
+              cursor-pointer
               transition-all
               duration-300"
             >
               {skill}
-            </div>
+            </motion.div>
           ))}
 
         </div>
